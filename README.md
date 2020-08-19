@@ -1,5 +1,5 @@
 # calculadora-imc
-Calculadora de IMC em HTML e JavaScript.
+Calculadora de IMC em HTML, CSS e JavaScript.
 
 IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
 A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos.
