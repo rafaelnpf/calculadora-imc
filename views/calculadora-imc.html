@@ -4,30 +4,33 @@
 <head>
     <meta charset="utf-8">
     <title>Calculadora de IMC</title>
-    <link rel="shortcut icon" href="/calculadora-imc-HTML-JS/public/images/favicon.ico">
+    <link rel="shortcut icon" href="/calculadora-imc-HTML-JS/public/img/favicon.ico">
+    <link href="/calculadora-imc-HTML-JS/public/styles/style.css" rel="stylesheet">
     <script src="/calculadora-imc-HTML-JS/public/script/script.js"></script>
 </head>
 
 <body>
-    <form id="formulario">
-        <fieldset>
-            <legend>Calculo IMC</legend>
+    <div>
+        <form id="formulario">
+            <fieldset>
+                <legend>Calculo IMC</legend>
 
-            <label for="kilos">Kilos:</label>
-            <input name="kilos" type="text" />
+                <label for="kilos">Kilos:</label>
+                <input name="kilos" type="text" />
 
-            <label for="metros">Metros:</label>
-            <input name="metros" type="text" />
+                <label for="metros">Metros:</label>
+                <input name="metros" type="text" />
 
-            <label for="centimetros">Centímetros:</label>
-            <input name="centimetros" type="text" />
+                <label for="centimetros">Centímetros:</label>
+                <input name="centimetros" type="text" />
 
-            <label for="imc">IMC = </label>
-            <input name="imc" type="text" disabled="disabled" />
+                <label for="imc">IMC = </label>
+                <input name="imc" type="text" disabled="disabled" />
 
-            <a href="#" onclick="calcular();">Calcular</a>
-        </fieldset>
-    </form>
+                <a href="#" onclick="calcular();">Calcular</a>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
