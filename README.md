@@ -1,3 +1,5 @@
+![GitHub All Release](https://img.shields.io/github/license/rafaelnpf/Calculadora-IMC)
+
 # calculadora-imc
 Calculadora de IMC em HTML, CSS e JavaScript.
 
