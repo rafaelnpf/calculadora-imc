@@ -1,36 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Calculadora de IMC</title>
-    <link rel="shortcut icon" href="/Calculadora-IMC/public/img/favicon.ico">
-    <link href="/Calculadora-IMC/public/styles/style.css" rel="stylesheet">
-    <script src="/Calculadora-IMC/public/script/script.js"></script>
+    <meta property="og:image" content="assets/img/Calculadora-IMC.jpeg">
+    <meta name="description" content="Calculadora de IMC">
+    <link rel="icon" type="image/jpeg" sizes="244x244" href="assets/img/Calculadora-IMC.jpeg">
+    <link rel="icon" type="image/jpeg" sizes="244x244" href="assets/img/Calculadora-IMC.jpeg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body>
-    <div>
+<body style="background: rgb(128,128,128);font-family: Roboto, sans-serif;">
+    <div class="highlight-blue" style="background: rgba(255,255,255,0);width: 330px;height: 230px;padding-top: 60px;padding-bottom: 60px;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="font-size: 30px;">Calculadora de IMC&nbsp;</h2>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="https://github.com/rafaelnpf/Calculadora-IMC" style="color: rgb(255,255,255);background: #222222;padding: 9px 13px;border-style: none;">Sobre</a></div>
+        </div>
+    </div><div>
         <form id="formulario">
             <fieldset>
-                <legend>Calculo IMC</legend>
+                <legend>Calculo de IMC</legend>
 
                 <label for="kilos">Kilos:</label>
-                <input name="kilos" type="text" />
+                <input name="kilos" type="text">
 
                 <label for="metros">Metros:</label>
-                <input name="metros" type="text" />
+                <input name="metros" type="text">
 
                 <label for="centimetros">Centímetros:</label>
-                <input name="centimetros" type="text" />
+                <input name="centimetros" type="text">
 
                 <label for="imc">IMC = </label>
-                <input name="imc" type="text" disabled="disabled" />
+                <input name="imc" type="text" disabled="disabled">
 
                 <a href="#" onclick="calcular();">Calcular</a>
             </fieldset>
         </form>
     </div>
+    <div class="footer-basic" style="margin: 150px;width: 350px;background: rgb(128,128,128);padding-top: 30px;">
+        <footer>
+            <div class="social" style="background: rgb(128,128,128);color: rgb(255,255,255);width: 350px;padding: 10px 10px;border-style: none;"><a href="https://github.com/rafaelnpf" style="background: #222222;padding: 0px;"><i class="icon ion-social-github" style="color: rgb(255,255,255);border-style: none;"></i></a><a href="https://www.linkedin.com/in/rafaelnpf/" style="background: #222222;padding: 0px;"><i class="icon ion-social-linkedin" style="color: rgb(255,255,255);"></i></a>
+                <a
+                    href="https://www.instagram.com/rafaelnpf/" style="background: #222222;padding: 0px;"><i class="icon ion-social-instagram" style="color: rgb(255,255,255);"></i></a><a href="https://br.pinterest.com/rafaelnpf/" style="background: #222222;padding: 0px;"><i class="icon ion-social-pinterest" style="color: rgb(255,255,255);"></i></a>
+                    <a
+                        href="https://open.spotify.com/user/12166927631?si=NqHHBIQ1TKCFewCg-fZiRA" style="background: #222222;padding: 0px;"><i class="fa fa-spotify" style="color: rgb(255,255,255);border-style: none;"></i></a>
+            </div>
+            <p class="copyright" style="color: rgb(218,218,218);">Rafael Nunes © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
