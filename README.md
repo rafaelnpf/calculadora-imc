@@ -1,5 +1,12 @@
-![GitHub All Release](https://img.shields.io/github/license/rafaelnpf/Calculadora-IMC)
+<p align="center">
+    <img alt="License" src="https://img.shields.io/github/license/rafaelnpf/Calculadora-IMC">
+</p>
+<br>
 
+<p align="center">
+  <img alt="Calculadora-IMC" src=".github/Folder Calculadora-IMC.jpeg" width="100%">
+</p>
+<br>
 # calculadora-imc
 Calculadora de IMC em HTML, CSS e JavaScript.
 
@@ -17,6 +24,11 @@ BMI is the acronym for Body Mass Index, a parameter adopted by the World Health 
  Based on this, I present my BMI calculator, which aims to facilitate your weight tracking.  To use this calculator is very simple: you have 3 blank spaces that will be filled, respectively, with your weight, your height in meters and the centimeters also corresponding to your height.
  After clicking on “calculate”, you will have the value of your BMI and you will receive a pop up alert, to find out if your BMI is within the ideal parameters for your calculation.  So, immediately you will know if you need any changes to your weight, and you can adjust to have a healthier life!
  
+<p align="center">
+  <img alt="Calculadora-IMC" src=".github/Calculadora-IMC.gif" width="100%">
+</p>
+<br>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -31,4 +43,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/rafaelnpf/Calculadora-IMC/blob/master/LICENSE) para mais detalhes.
 
 ---
-Feito com amor by Rafael Nunes
+Feito por Rafael Nunes
