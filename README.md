@@ -41,4 +41,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/rafaelnpf/Calculadora-IMC/blob/master/LICENSE) para mais detalhes.
 
 ---
-Feito por Rafael Nunes
+Feito por [Rafael Nunes.](https://github.com/rafaelnpf)
