@@ -34,6 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML5](https://html5.org/)
 - [CSS](http://www.css3.info/)
 - [JavaScript](https://www.javascript.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 
 ## 📝 Licença 
